@@ -94,6 +94,21 @@ a:hover{
 
 }
 
+.section__pic-container{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+
+}
+
+.section__pic-container img{
+    object-fit: cover;
+    background-color: rgba(219, 211, 211, 0.459);
+    border-radius: 300px;
+    
+}
 .menu-links{
     position: absolute;
     top: 100%;
