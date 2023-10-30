@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -32,7 +32,7 @@
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <li><a href="#contact" onclick ="toggleMenu()">Contact</a></li>
         </div>
       </div>
     </nav>
@@ -43,11 +43,12 @@
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Ceejy Singh</h1>
-        <p class="section__text__p2">Frontend Developer</p>
+        <div height="50px">
+        <p class="section__text__p2">Frontend Developer</p></div>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
+            onclick="window.open('./assets/Resumeceejy.pdf')"
           >
             Download CV
           </button>
@@ -56,18 +57,20 @@
           </button>
         </div>
         <div id="socials-container">
-          <img
+          <a href='https://www.linkedin.com/in/charndeep2019/' target="_blank">
+            <img
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://www.linkedin.com/in/charndeep2019/'"
           />
-          <img
+          </a>
+          <a href='https://github.com/Ceejy-S' target="_blank">
+            <img
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https://github.com/Ceejy-S'"
           />
+        </a>
         </div>
       </div>
     </section>
@@ -105,12 +108,11 @@
           </div>
           <div class="text-container">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-              reiciendis ea magnam? Nulla, impedit fuga!
+              I am a dedicated front-end developer with a strong passion for creating beautiful, user-centric websites. 
+              With a few months of experience under my belt, I've already had the opportunity to work on a range of exciting projects.
+               I'm committed to delivering high-quality, responsive web designs that not only meet but exceed client expectations. 
+               I'm constantly expanding my skill set and staying up-to-date with industry trends to ensure I can tackle any challenge that comes my way.
+               I'm excited to contribute my expertise to your next project and help bring your digital vision to life.
             </p>
           </div>
         </div>
@@ -354,7 +356,7 @@
           />
           <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
         </div>
-        <div class="contact-info-container">
+        <div class="contact-info-container"
           <img
             src="./assets/linkedin.png"
             alt="LinkedIn icon"

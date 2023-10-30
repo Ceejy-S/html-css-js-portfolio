@@ -193,7 +193,23 @@ section {
 .section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
+  animation-name: animation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+
   
+}
+@keyframes animation {
+  0% {font-size: 1.75rem;
+    opacity: 0.7;
+  } /*
+  15% {font-size: 1.85em; 
+  opacity: 0.5;
+  } 
+  25% {font-size: 1.90rem;}
+  50% {font-size: 1.85rem;} */
+  50% {font-size: 2.0rem;}
+
 }
 
 .title {
@@ -287,6 +303,8 @@ section {
 
 .about-pic {
   border-radius: 2rem;
+  width: 
+  
 }
 
 .arrow {
