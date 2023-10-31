@@ -1,7 +1,7 @@
 /* GENERAL */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-
+ 
 * {
   margin: 0;
   padding: 0;
@@ -42,7 +42,7 @@ nav {
 .nav-links {
   gap: 2rem;
   list-style: none;
-  font-size: 1.5rem;
+  font-size:  1.5rem;
 }
 
 a {
@@ -287,7 +287,7 @@ section {
 
 .about-containers {
   gap: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2rem; 
   margin-top: 2rem;
 }
 
@@ -303,7 +303,6 @@ section {
 
 .about-pic {
   border-radius: 2rem;
-  width: 
   
 }
 

@@ -16,9 +16,11 @@
     #desktop-nav {
       display: none;
     }
+ 
     #hamburger-nav {
       display: flex;
     }
+  }
     #experience,
     .experience-details-container {
       margin-top: 2rem;
@@ -45,7 +47,7 @@
     .about-containers {
       margin-top: 0;
     }
-  }
+
   
   @media screen and (max-width: 600px) {
     #contact,
